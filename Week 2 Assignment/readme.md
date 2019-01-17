@@ -9,8 +9,7 @@
 5. Create variable for your Student Number in INVOICE NUMBER, show the result in "INVOICE" html text
 6. Create variable for Todays Date formatted MM/DD/YYYY, show the result in "CREATED" html text 
 7. Create variable for the SQUARE ROOT OF YOUR STUDENT NUMBER, round to 4 decimals, show the result
-8. Create Variable for your name, show the result where the company name is – Then For ex: John Smith, use string method(s) to get the
-      first word “John” and store it in a new variable, display it in all caps “JOHN” underneath the Date - 2.5 marks
+8. Create Variable for your name, show the result where the company name is – Then For ex: John Smith, use string method(s) to get the first word “John” and store it in a new variable, display it in all caps “JOHN” underneath the Date
    
   
 ## Advanced:
