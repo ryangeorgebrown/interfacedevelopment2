@@ -1,17 +1,17 @@
-# WEEK 2 - Emoji Invoice Assignment
+# WEEK 3 - Emoji Invoice Assignment
 
 ## Complete these steps to calculate your invoice
 
-1. Put INLINE STYLE SHEET INTO EXTERNAL style sheet file and reference it 
-2. Load JQUERY INTO THE HTML DOCUMENT, Create a local reference to the file.
-3. Change the background color of the body from white to another color using JavaScript
-4. Change the emoji graphic to another image.
-5. Create variable for your Student Number in INVOICE NUMBER, show the result in "INVOICE" html text
-6. Create variable for Todays Date formatted MM/DD/YYYY, show the result in "CREATED" html text 
-7. Create variable for the SQUARE ROOT OF YOUR STUDENT NUMBER, round to 4 decimals, show the result
-8. Create Variable for your name, show the result where the company name is – Then For ex: John Smith, use string method(s) to get the first word “John” and store it in a new variable, display it in all caps “JOHN” underneath the Date
-   
-  
+1. Create array with 4 indexes VISA CASH CHECK MASTERCARD
+2. Display "Cash" value from your array and put it in the "PAYMENT METHOD" text
+3. Use an array method to add new payment option at the end called "E-TRANSFER. Use an array method to
+remove CHECK from the Array
+4. SORT the Array in to Alphabetical Order, and list out the payment methods under PAYMENT ACCEPTED.
+5. Create a multidimensional Array with these 3 texts into them Web Development, UX, James's Copywriting and
+add the amount of hours you spent on each task - 15, 9, 13, show texts in the table row template
+<tbody></tbody>.
+
 ## Advanced:
 
-9. Use DATE Object to display date MM/DD/YYYY from question 6.
+6. Calculate and display the HOURS, SUBTOTAL TAXES AND TOTAL, by adding all the hours to a rate of $75/hour.
+use the Array from 4a, make sure you fix the decimal to 2 decimals only. 15 marks
