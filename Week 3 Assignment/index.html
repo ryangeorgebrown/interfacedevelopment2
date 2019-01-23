@@ -1,0 +1,200 @@
+<!doctype html>
+<html>
+<head>
+
+    <meta charset="utf-8">
+    <title>Intercace Development 2 - Invoice</title>
+
+
+    <style>
+    .invoice-box{
+            background: white;
+        max-width:800px;
+        margin:auto;
+        padding:30px;
+        border:1px solid #eee;
+        box-shadow:0 0 10px rgba(0, 0, 0, .15);
+        font-size:16px;
+        line-height:24px;
+        font-family:'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif;
+        color:#555;
+    }
+    
+    .invoice-box table{
+        width:100%;
+        line-height:inherit;
+        text-align:left;
+    }
+    
+    .invoice-box table td{
+        padding:5px;
+        vertical-align:top;
+    }
+    
+    .invoice-box table tr td:nth-child(2){
+        text-align:right;
+    }
+    
+    .invoice-box table tr.top table td{
+        padding-bottom:20px;
+    }
+    
+    .invoice-box table tr.top table td.title{
+        font-size:45px;
+        line-height:45px;
+        color:#333;
+    }
+    
+    .invoice-box table tr.information table td{
+        padding-bottom:40px;
+    }
+    
+    .invoice-box table tr.heading td{
+        background:#eee;
+        border-bottom:1px solid #ddd;
+        font-weight:bold;
+    }
+    
+    .invoice-box table tr.details td{
+        padding-bottom:20px;
+    }
+    
+    .invoice-box table tr.item td{
+        border-bottom:1px solid #eee;
+    }
+    
+    .invoice-box table tr.item.last td{
+        border-bottom:none;
+    }
+    
+    .invoice-box table tr.total td:nth-child(2){
+        border-top:2px solid #eee;
+        font-weight:bold;
+    }
+
+  
+    
+    @media only screen and (max-width: 600px) {
+        .invoice-box table tr.top table td{
+            width:100%;
+            display:block;
+            text-align:center;
+        }
+        
+        .invoice-box table tr.information table td{
+            width:100%;
+            display:block;
+            text-align:center;
+        }
+    }
+    </style>
+ 
+</head>
+
+<body>
+    <div class="invoice-box">
+        <table cellpadding="0" cellspacing="0">
+            <tr class="top">
+                <td colspan="2">
+                    <table>
+                        <tr>
+                            <td class="title">
+                                <img src="emoji.png" width="100">
+                            </td>
+                            
+                            <td>
+                                Invoice #: 123456789<br>
+                                Created: January 1, 2015<br>
+                                Square Root of Invoice Number: 11111.1110<br>
+                               EMOJI<br>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            
+            <tr class="information">
+                <td colspan="2">
+                    <table>
+                        <tr>
+                            <td>
+                                Emoji Web Design, Inc.<br>
+                                12345 Sunny Road<br>
+                                Sunnyville, TX 12345
+                            </td>
+                            
+                            <td>
+                               
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            
+            <tr class="heading">
+                <td>
+                    Payment Method
+                </td>
+                
+                <td>
+                    Payment Types Accepted
+                </td>
+            </tr>
+            
+            <tr class="details">
+                <td>
+                    Check
+                </td>
+                
+                <td>
+                    Check's<br>Bitcoins<br>Starbucks Cards
+                </td>
+            </tr>
+            
+            <tr class="heading">
+                <td>
+                    Items
+                </td>
+                
+                <td>
+                   Hours Worked
+                </td>
+            </tr>
+            
+            <tbody id="tableStuff">
+            <!-- use this id to show the Array in question 4a -->   
+            <tr class="item"><td>Text</td><td>0</td></tr>
+          
+            </tbody>
+
+
+           <tr><td>
+                Total Hours
+           </td><td>292</td></tr>
+               <tr class="subtotal">
+                <td></td>
+                
+                <td>
+                   Sub Total: $385.00
+                </td>
+            </tr>
+               <tr class="taxes">
+                <td></td>
+                
+                <td>
+                   Taxes (13%): $50.05
+                </td>
+            </tr>
+            
+            <tr class="total">
+                <td></td>
+                
+                <td>
+                   Total: $435.05
+                </td>
+            </tr>
+        </table>
+    </div>
+
+</body>
+</html>
