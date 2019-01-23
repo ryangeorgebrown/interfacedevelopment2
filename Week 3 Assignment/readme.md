@@ -13,5 +13,5 @@ add the amount of hours you spent on each task - 15, 9, 13, show texts in the ta
 
 ## Advanced:
 
-6. Calculate and display the HOURS, SUBTOTAL TAXES (13%) AND TOTAL, by adding all the hours to a rate of $75/hour.
+7. Calculate and display the HOURS, SUBTOTAL TAXES (13%) AND TOTAL, by adding all the hours to a rate of $75/hour.
 use the Array from question 6, make sure you fix the decimal to 2 decimals only.
