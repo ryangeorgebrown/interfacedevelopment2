@@ -1,7 +1,8 @@
 # WEEK 4 - Photo Gallery Assignment
 
-## Create an image gallery using JavaScript, jQuery. It can be something about you, a hobby, interest, music group. Use bootstrap 
-and create 2 HTML layouts, an intro page, gallery page with 8-10 images.
+## Create an image gallery using JavaScript, jQuery. 
+
+It can be something about you, a hobby, interest, music group. Use bootstrap and create 2 HTML layouts, an intro page, gallery page with 8-10 images.
 
 1. Download Bootstrap and run an index file on your local server.
 2. Setup intro page in bootstrap. Intro page should have one photo, text and a button.
