@@ -13,5 +13,5 @@ Use your assignment from week 4 and complete the following tasks.
 
 ## Advanced:
 
-6. Highlight thumbnail when its selected
-7. Create image counter - ie. image 5/10
+7. Highlight thumbnail when its selected
+8. Create image counter - ie. image 5/10
