@@ -1,4 +1,4 @@
-# WEEK 5 - Photo Gallery Assignment Continued'
+# WEEK 6 - Photo Gallery Assignment Continued'
 
 ## Create an image gallery using Bootstrap, JavaScript, jQuery.
 
